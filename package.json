@@ -1,8 +1,8 @@
 {
   "name": "ts-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Professional Typescript Node API",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "start": "node dist/main/api",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
@@ -10,8 +10,12 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Crisler Wintler",
+    "email": "crislerwintler@gmail.com",
+    "url": "https://www.crisler.tech"
+  },
+
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^16.4.13",
