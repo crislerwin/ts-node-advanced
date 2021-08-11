@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "outDir": "dist",
     "rootDir": "src",
     "target": "es2021",
@@ -14,7 +15,11 @@
       "@/*": ["*"],
       "@/tests/*": ["../tests/*"]
     },
-    "strict": true
+    "strict": true,
+    "noImplicitOverride": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "include": ["src", "tests"]
 }
